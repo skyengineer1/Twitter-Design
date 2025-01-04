@@ -1,0 +1,59 @@
+div.container {
+    width: 500px;
+    height: 100%;
+    box-shadow: 1px 2px 3px 5px lightgrey;
+    padding: 10px;
+}
+
+div.top {
+    display: flex;
+    gap: 10px;
+}
+
+img.profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+img.youtube-image {
+    width: 100px;
+    height: 96px;
+    margin-top: 4px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+div.youtube-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 96px;
+    width: 320px;
+    cursor: pointer;
+}
+
+div.right-bottom {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+p.description {
+    width: 350px;
+    margin-top: 5px;
+}
+
+p.title {
+    margin-bottom: 0;
+}
+
+p.youtube-title {
+    color: rgba(65, 65, 65, 0.8);
+    margin-bottom: 0;
+}
+
+p.youtube-description {
+    margin-top: 10px;
+}
